@@ -1,0 +1,369 @@
+/* Estilos Generales */
+body{
+    background: url(../img/qbkls.png);
+}
+
+
+/*Estilos de la navbar*/
+#navbar {
+    flex-basis: 48%;
+}
+
+.menu-principal .fab{
+    font-size: 30px;
+}
+
+.menu-principal a{
+    box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+}
+
+.menu-principal a:hover{
+    transform: translate(0, -10px);
+}
+
+.menu-principal a:active{
+    transform: translate(0, -10px);
+}
+
+.menu-principal ul li:nth-child(1) a:hover{
+    background-color: #3b5999;
+}
+
+.menu-principal ul li:nth-child(1) a:active{
+    background-color: #3b5999;
+}
+
+.menu-principal ul li p{
+    margin-left: 38%;
+}
+
+.menu-principal ul li:nth-child(2) a:hover{
+    background-color: #55acee;
+}
+
+.menu-principal ul li:nth-child(3) a:hover{
+    background-color: #e4405f;
+}
+
+.menu-principal ul li:nth-child(2) a:active{
+    background-color: #55acee;
+}
+
+.menu-principal ul li:nth-child(3) a:active{
+    background-color: #e4405f;
+}
+
+.menu-principal ul li a i{
+    margin-left: 46%;
+}
+
+#logo h1{
+    font-family: 'Staatliches', cursive;
+}
+
+#logo h1 a:hover{
+    color: #ffffff;
+    text-shadow: 0 0 10px #ffffff,
+                0 0 20px #ffffff,
+                0 0 40px #ffffff,
+                0 0 80px #ffffff,
+                0 0 120px #ffffff,
+                0 0 180px #ffffff;
+}
+
+@media (min-width: 768px) {
+    .menu-principal{
+        display: block !important;
+    }
+}
+
+@media (min-width: 768px) { 
+    .menu-principal ul li a i{
+        margin-left: 0px;
+    }
+}
+
+/* Estilos sidebar */
+
+#aside-bar{
+    flex-basis: 18%;
+    max-height: 1250px;
+}
+
+#titulo_asidebar{
+    font-family: 'Jockey One', sans-serif;
+    font-size: 50px;
+}
+
+/* Estilos seccion de tarjetas */
+
+#seccion_tarjetas {
+    flex-basis: 80%;
+    margin-left: 6%;
+}
+
+#titulo_seccion_cards{
+    flex-basis: 100%;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 50px;
+}
+
+.card {
+    width: 23% !important;
+    margin-bottom: 22px !important;
+}
+.card img{
+    width: 330px !important;
+    height: 190px !important;
+}
+
+.card p{
+    font-family: 'Lemonada', cursive;
+}
+
+.card h3{
+    font-family: 'Staatliches', cursive;
+}
+
+.card .face .face1{
+    background-color: #333333;
+}
+
+
+.card:hover .face1{
+    transform: translateY(-100%) rotateX(90deg);
+    background: #1a202c;
+}
+
+.card:active .face1{
+    transform: translateY(-100%) rotateX(90deg);
+    background: #1a202c;
+}
+
+.card .face2{
+    transform: translateY(100%) rotateX(90deg);
+}
+
+.card:hover .face2{
+    transform: translateY(0%) rotateX(0deg);
+}
+.card:active .face2{
+    transform: translateY(0%) rotateX(0deg);
+}
+
+#seccion_tarjetas #boton_ver_mas {
+    flex-basis: 100%;
+}
+
+
+
+
+/*Responsive de la seccion principal*/
+
+@media (max-width: 1450px) {
+    .card p{
+        font-size: 15px;
+    }
+}
+@media (max-width: 1590px) {
+    .card p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1334px){
+    .card p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1150px){
+    .card p{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1115px){
+    #seccion_principal{
+        flex-wrap: wrap;
+    }
+
+    #aside-bar{
+        flex-basis: 90%;
+        max-height: 450px;
+    }
+
+    #adie-bar div button{
+        width: 28% !important;
+    }
+
+    #seccion_tarjetas{
+        flex-basis: 100%;
+        max-height: auto;
+    }
+}
+@media (max-width: 912px){
+    .card{
+        width: 30% !important;
+    }
+    .card p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 824px){
+    .card{
+        width: 40% !important;
+    }
+    .card p{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 788px){
+    .card{
+        width: 47% !important;
+    }
+}
+
+@media (max-width: 788px){
+    .card p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 548px){
+    .card p{
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 456px){
+    .card{
+        width: 90% !important;
+    }
+    .card p{
+        font-size: 15px;
+    }
+}
+
+/* Estilos Footer */
+.bg-facebook {
+    background-color: #3b5998;
+}
+
+.bg-facebook:hover {
+    background-color: #344e86;
+}
+
+.bg-twitter {
+    background-color: #1da1f2;
+}
+
+.bg-twitter:hover {
+    background-color: #0d95e8;
+}
+
+/* ---ESTILOS DE LIBRERIA DE ANIME--- */
+
+/*Estilos Seccion Info Del Anime*/
+
+#contenedor_seccion_info{
+    background-image: radial-gradient(at 10% 30%,#364070 0,#1d2758 100%);;
+}
+#seccion_info img{
+    height: 24rem;
+}
+
+#seccion_info h2{
+    font-family: 'Staatliches', cursive;
+    font-size: 200%;
+}
+
+#seccion_info h3{
+    font-family: 'Merriweather', serif;
+    font-size: 150%;
+    text-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+#seccion_info p{
+    font-family: 'Lemonada', cursive;
+}
+
+#seccion_info h4{
+    font-family: 'Staatliches', cursive;
+    font-size: 160%;
+}
+
+#hr{
+    height: 50px;
+}
+
+/*Estilos Seccion Capitulos Del Anime*/
+
+.tab-content {
+    max-height: 0;
+    -webkit-transition: max-height .35s;
+    -o-transition: max-height .35s;
+    transition: max-height .35s;
+    }
+    /* :checked - resize to full height */
+    .tab input:checked ~ .tab-content {
+    max-height: 100vh;
+    }
+    /* Label formatting when open */
+    .tab input:checked + label{
+    /*@apply text-xl p-5 border-l-2 border-indigo-500 bg-gray-100 text-indigo*/
+    font-size: 1.25rem; /*.text-xl*/
+    padding: 1.25rem; /*.p-5*/
+    border-left-width: 2px; /*.border-l-2*/
+    border-color: #6574cd; /*.border-indigo*/
+    background-color: #f8fafc; /*.bg-gray-100 */
+    color: #6574cd; /*.text-indigo*/
+    }
+    /* Icon */
+    .tab label::after {
+    float:right;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    text-align: center;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+    }
+    /* Icon formatting - closed */
+    .tab input[type=checkbox] + label::after {
+    content: "+";
+    font-weight:bold; /*.font-bold*/
+    border-width: 1px; /*.border*/
+    border-radius: 9999px; /*.rounded-full */
+    border-color: #b8c2cc; /*.border-grey*/
+    }
+    .tab input[type=radio] + label::after {
+    content: "\25BE";
+    font-weight:bold; /*.font-bold*/
+    border-width: 1px; /*.border*/
+    border-radius: 9999px; /*.rounded-full */
+    border-color: #b8c2cc; /*.border-grey*/
+    }
+    /* Icon formatting - open */
+    .tab input[type=checkbox]:checked + label::after {
+    transform: rotate(315deg);
+    background-color: #6574cd; /*.bg-indigo*/
+    color: #f8fafc; /*.text-grey-lightest*/
+    }
+    .tab input[type=radio]:checked + label::after {
+    transform: rotateX(180deg);
+    background-color: #6574cd; /*.bg-indigo*/
+    color: #f8fafc; /*.text-grey-lightest*/
+}
+
+#acordeon h3{
+    font-family: 'Staatliches', cursive;
+    font-size: 200%;
+}
